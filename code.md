@@ -1,3 +1,4 @@
+```c#
 try
                 {
                     var request = (HttpWebRequest)WebRequest.Create("https://edu.grsu.by/modules/mod_metromenu/get.php");
@@ -30,3 +31,4 @@ try
                 {
                     MessageBox.Show(ex.Message);
                 }
+```
